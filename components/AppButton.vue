@@ -15,7 +15,7 @@ const props = defineProps({
 });
 
 const className = [
-  "p-3 rounded-[12px] hover:brightness-125",
+  "rounded-[12px] hover:brightness-125",
   props.type === "primary" && "bg-[#2667FF] text-white",
   props.type === "secondary" && "bg-[#2667FF1F] ",
   props.type === "transparent" && "bg-transparent",

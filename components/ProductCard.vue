@@ -40,10 +40,7 @@
             </h2>
           </div>
           <app-button type="primary" class="mt-auto w-full lg:w-[unset] p-0">
-            <img
-              class="w-full lg:w-10 h-10 rounded-lg"
-              src="~/assets/images/Button.svg"
-            />
+            <img class="mx-auto rounded-lg" src="~/assets/images/Button.svg" />
           </app-button>
         </div>
       </div>

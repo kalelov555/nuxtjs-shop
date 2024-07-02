@@ -8,7 +8,7 @@
             name="title"
             class="rounded-full h-full p-4 lg:min-w-[600px] min-w-full"
           />
-          <app-button type="transparent"
+          <app-button class="px-6" type="transparent"
             ><img :src="Search" alt="search"
           /></app-button>
         </div>

@@ -91,10 +91,10 @@
               </h2>
             </div>
             <div class="mt-6 flex gap-4">
-              <app-button @click="open = true" class="w-full" type="primary"
+              <app-button @click="open = true" class="w-full p-3" type="primary"
                 >Купить</app-button
               >
-              <app-button type="secondary"
+              <app-button class="p-3" type="secondary"
                 ><img :src="HeartTransparent" alt="heart"
               /></app-button>
             </div>
